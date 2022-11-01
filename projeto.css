@@ -1,0 +1,46 @@
+body {
+    background: burlywood
+} 
+h1{
+    color: black      
+}             
+        
+main {    
+    width: 940px;
+    margin: 0 auto;  
+}
+ 
+form {
+    margin: 40px 0; 
+}
+
+form label {
+    display:block;
+    font-size: 20px; 
+    margin: 0 0 10px; 
+}  
+
+form input {
+    display: block; 
+    margin: 0 0 20px;
+    padding: 10px 25px;
+} 
+
+table {
+    margin: 20px 0 40px;
+    padding: 8px;  
+     
+} 
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold; 
+}
+
+tr {
+    height: 30px;
+}
+
+td, th {
+    border: 1px solid #000000;
+}   

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">    
+<meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Projeto</Title> 
+    <link rel="stylesheet" href="/projeto.css"></link> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>           
+<body>       
+    <h1>Crud de Produtos</h1>
+    <form class="form" method="get">
+        <p>Id: <input type="text" class="testeid"></p>
+        <p>Descrição: <input type="text" class="descricao"></p>
+        <p>Categoria: <input type="text" class="categoria"></p>
+        <p>Peso: <input type="text" class="peso"></p>
+        <p>Altura: <input type="text" class="altura"></p>
+        <p>Largura: <input type="text" class="largura"></p>
+        <p>Comprimento: <input type="text" class="comprimento"></p>
+        <p>Estoque: <input type="text" class="estoque"></p>
+        <p>Data de Cadastro: <input type="date" class="datacadastro"></p>
+        <button type="button">Enviar</button>  
+        <button class="editar">Editar</button>
+        <button class="apagar" onclick="removerElemento(event.target)">Apagar</button>   
+        
+        
+    </form>   
+   
+    <div class="resultado"></div>         
+    
+<div class="content">   
+    <table border="2" id="tabela"> 
+      
+        <thead> 
+          <tr class="tr-cabecalho">
+            <th>Id</th>
+            <th>Descrição</th>
+            <th>Categoria</th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th>Largura</th>
+            <th>Comprimento</th>
+            <th>Estoque</th>
+            <th>Data de Cadasttro</th>
+           
+          </tr>
+        </thead> 
+ 
+        <tbody class="teste">                 
+            
+        </tbody>
+    </table>
+</div>
+      
+</main>
+<script src="/projeto.js"></script>  
+</body>
+</html>
